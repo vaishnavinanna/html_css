@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box
+        }
+        .wrapper
+        {
+            width:80% ;
+            min-height: 100px;
+            margin: auto;
+            border: 2px solid black;
+        }
+        .header-div
+        {
+            width: 100%;
+            min-height: 80px;
+            margin-top: 2px;
+            background-color: lightpink;
+            border: 1px solid black;
+            padding: 10px;
+        }
+        .header-div .head{
+            float: left;
+            width: 48%;
+            height: 50px;
+            border: 1px solid white;
+            padding: 10px;
+        }
+        .head h1{
+            font-size: 20px;
+            columns: black;
+        }
+        .header-div .menu{
+            float: right;
+            padding: 20px;
+            width: 48%;
+            height: 50px;
+            border: 1px solid white;
+        }
+        .menu a{
+            font-size: 20px;
+            columns: black;
+            text-decoration: none;
+            padding: 10px;
+            color: black;
+        }
+        .menu a:hover{
+            background-color: aqua;
+            color: white;
+        }
+        .slider{
+            width: 100%;
+            height: 300px;
+            background-color: lightsalmon;
+            border: 1px solid black;
+            margin-top: 2px;
+        }
+        .slider img{
+            width: 100%;
+            height: 100%;
+        }
+        .content{
+            width: 100%;
+            min-height: 200px;
+            border: 1px solid black;
+            margin-top: 2px;
+            background-color: lightseagreen;
+            padding: 10px;
+        }
+        .content .up-news{
+            padding: 10px;
+            float: left;
+            width: 28%;
+            height: 150px;
+            border: 1px solid white;
+        }
+        .up-news p{
+            font: 25px;
+            color: black;
+        }
+        .content .text{
+            float: right;
+            width: 71%;
+            height: 150px;
+            border: 1px solid white;
+            padding: 10px;
+        }
+        .text .para{
+            float:left;
+            width: 49%;
+            height: 130px;
+            text-align: justify;
+            border: 1px solid black;
+        }
+        .text .img-div{
+            float: right;
+            width: 49%;
+            height: 130px;
+            border: 1px solid black;
+        }
+        .img-div img{
+            width: 100%;
+            height: 100%;
+        }
+        .footer{
+            width: 100%;
+            height: 50px;
+            margin-top: 2px;
+            border: 1px solid black;
+            background-color: lightgray;
+        }
+        .footer p{
+            padding: 10px;
+            text-align: center;
+            font-size: 10px;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header-div">
+            <div class="head">
+                <h1>
+                    NATURE !!!
+                </h1>
+            </div>
+            <div class="menu">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+                <a href="#">Service</a>
+            </div>
+        </div>
+        <div class="slider">
+            <img src="images/nature.avif">
+        </div>
+        <div class="content">
+            <div class="up-news">
+                <marquee behavior="scroll" direction="up" scrollAmount="5" onmouseover="this.stop()" onmouseleave="this.start()">
+                <p>
+                    Lorem ipsum dolor sit amet. 
+                    <img src="images/new-icon-gif-20.jpg" width="30px" height="30px" >
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet.<img src="images/new-icon-gif-20.jpg" width="30px" height="30px" >
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet.<img src="images/new-icon-gif-20.jpg" width="30px" height="30px" >
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet.<img src="images/new-icon-gif-20.jpg" width="30px" height="30px" >
+                </p>
+            </marquee>
+            </div>
+            <div class="text">
+                <div class="para">
+                     <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita sed mollitia est nostrum? Sit quibusdam, itaque distinctio perferendis molestiae ducimus consequatur autem deleniti repudiandae consectetur, odit ad? Facere vel soluta deserunt dolorem aut, quaerat eum ratione tempore vero, porro ipsa!
+                </p>
+                </div>
+                <div class="img-div">
+                    <img src="images/nature1.avif" >
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <p>
+                @vaishnavi
+            </p>
+        </div>
+    </div>
+    <style>
+        body{
+            background-image: url(images/img.jpg);
+        }
+    </style>
+</body>
+</html>

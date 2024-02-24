@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+       } 
+       .wrapper{
+            width: 80%;
+            min-height: 100px;
+            margin: auto;
+            /* border: 1px solid black; */
+       }
+       .menu_div{
+            width: 100%;
+            height: 50px;
+          /*  border: 1px solid black;*/
+            background-color: rgb(229, 231, 230);
+       }
+       .logo{
+        width: 48%;;
+        height: 40px;
+        float: left;
+      /*  border: 1px solid black;*/
+       }
+       .menu{
+        width: 48%;
+        height: 40px;
+        float: right;
+      /*  border: 1px solid black;*/
+        padding-top: 8px;
+       }
+       .menu a{
+        text-decoration: none;
+        font-size: 20px;
+        padding:30px;
+        color: black;
+        }
+        .menu a:hover{
+            background-color: black;
+            color: whitesmoke;
+        }
+        .slider{
+            width: 100%;
+            height: 500px;
+         /*   border: 1px solid black;*/
+            background-image: url(images/bgPic.jpeg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding-top: 80px;
+           background-position: 0%; 
+        }
+        .text h1{
+        /*    margin-top: 50px;*/
+            color: black;
+            text-align: center;
+            font-size: 80px;
+        }
+        .text h2{
+            margin-top: 10px;
+            color: black;
+            text-align: center;
+            font-size: 20px;
+        }
+        .header{
+            margin-top: 10px;
+            width: 100%;
+            height: 800px;
+            background-color: lightgrey;
+           /* border: 1px solid black;*/
+        }
+        .header .para h1{
+            padding-top: 150px;
+            text-align: center;
+        }
+        .s1{
+            margin-top: 20px;
+           width: 32%;
+           height: 400px;
+           margin-left: 10px;
+          border: 1px solid black;
+           float: left;
+        }
+        .s1 img{
+            width: 100%;
+            height: 70%;
+        }
+        .s1 p{
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-top: 20px;
+            text-align: center;
+        }
+        .main-slider{
+            margin-top: 10px;
+            width: 100%;
+            height: 500px;
+          /*  border: 1px solid black;*/
+        }
+        .R{
+            float: right;
+         /*   border: 1px solid black;*/
+            width: 50%;
+            height: 500px;
+        }
+        .L{
+            float:left;
+          /*  border:1px solid black;*/
+            width: 50%;
+            height: 500px;
+        }
+        .L img{
+            width: 100%;
+            height: 100%;
+        }
+        .R h1{
+            text-align: center;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            font-size: 40px;
+        }
+        .R p{
+            text-align: justify;
+            margin-left: 30px;
+            margin-right: 30px;
+            margin-bottom: 30px;
+            font-size: larger;
+        }
+        .footer{
+            /* margin-top: 10px; */
+            width: 100%;
+            height: 350px;
+            /* border: 1px solid black; */
+            background-color: lightgrey;
+            padding-top:40px ;
+        }
+        .footer h1{
+            text-align: center;
+        }
+        .footer h2{
+            margin-top: 10px;
+            text-align: center;
+            font-size: large;
+        }
+        .footer .box{
+            /* border: 1px solid black; */
+            width: 45%;
+            margin: auto;
+            height: 50px;
+            margin-top: 20px;
+            background-color: white;
+        }
+        .footer .box2{
+            width: 23%;
+            height: 42px;
+            border: 1px solid black;
+            margin: auto;
+            margin-top: 20px;
+            background-color: white;
+        }
+        .main-footer{
+            width: 100%;
+            height: 100px;
+            /* border: 1px solid black; */
+        }
+        .logo-bar{
+            float: left;
+        }
+        .menu-bar a{
+            float: right;
+            text-decoration: none;
+            font-size: 30px;
+            padding: 10px;
+            margin-top: 30px
+        }
+        .menu-bar a:hover{
+            background-color: lightgrey;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu_div">
+            <div class="logo">
+                <h1>LO</h1>
+            </div>
+            <div class="menu">
+                <a href="#">About</a>
+                <a href="#">Articles</a>
+                <a href="#">Contact</a>
+            </div>
+        </div>
+        <div class="slider">
+            <div class="text">
+                <h1>LOMBOK</h1>
+            <h2>HOLISTIC HEALTH</h2>
+            </div>
+        </div>
+        <div class="header">
+            <div class="para">
+                <h1>LATEST ARTICLE</h1>
+            </div>
+            <div class="s1">
+                <img src="images/item1.avif" alt="">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, similique?
+                </p>
+            </div>
+            <div class="s1">
+                <img src="images/item2.jpg" alt="">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, similique?
+                </p>
+            </div>
+            <div class="s1">
+                <img src="images/item3.jpg" alt="">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, similique?
+                </p>
+            </div>
+            </div>
+            <div class="main-slider">
+                <div class="L">
+                    <img src="images/bg.jpg" alt="">
+                </div>
+                <div class="R">
+                    <h1>ABOUT</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint inventore hic distinctio! Fuga itaque harum, fugiat voluptatem facilis labore cupiditate magni obcaecati quas repellendus, assumenda aspernatur quam ad ipsum recusandae.adipisicing elit. Hic repudiandae libero vitae laborum, sint ducimus harum accusamus eveniet blanditiis numquam modi incidunt. Unde dolorum iste, mollitia distinctio odio fuga molestias?<br><br> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero velit ab maxime accusantium placeat laborum beatae cumque eaque amet reprehenderit.</p>
+                </div>
+            </div>
+            <div class="footer">
+                <h1>SUBSCRIBE</h1>
+                <h2>Thank You everyone</h2>
+                <div class="box">
+
+                </div>
+                <div class="box2">
+
+                </div>
+            </div>
+            <div class="main-footer">
+                <div class="logo-bar">
+                    logo
+                </div>
+                <div class="menu-bar">
+                    <a href="#">Contact</a>
+                    <a href="#">Gallery</a>
+                    <a href="#">About</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

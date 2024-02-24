@@ -1,0 +1,10 @@
+/*This is External css*/
+p1{  /*p is a tag*/
+    background-color: rgb(204, 180, 184);
+}
+#hm{  /*this is change by id and must start with hash*/
+    background: #5f009e;
+}
+.hii{  /*this is change by class and must start with dot*/
+    background-color:cornflowerblue;
+}

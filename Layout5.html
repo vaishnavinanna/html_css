@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing:border-box;
+        }
+        .wrapper{
+            width: 80%;
+            min-height: 200px;
+            margin: auto;
+            border: 2px solid black;
+            background-image: linear-gradient(60deg,rgb(247, 69, 69),purple);
+        }
+        .header{
+            width: 100%;
+            height: 60px;
+            /* border: 1px solid black; */
+            position: relative;
+        }
+        .header .logo{
+            width: 30%;
+            height: 50px;
+            /* border: 1px solid black; */
+            position: absolute;
+            top: 8px;
+            left: 20px;
+        }
+        .header .menu{
+            width: 65%;
+            height: 50px;
+            position: absolute;
+            /* border: 1px solid black; */
+            top: 0;
+            right: 0;
+            padding-top: 15px;
+        }
+        .menu a{
+            text-decoration: none;
+            font-size: larger;
+            padding: 20px;
+            color: black;
+        }
+        .menu a:hover{
+            background-color: rgb(0, 162, 255);
+            color: white;
+            transition: 1s;
+        }
+        .slider{
+            width: 100%;
+            height: 500px;
+            background-image: url(images/img.avif);
+            background-repeat: no-repeat;
+            background-size: 100%,100%;
+        }
+        .slider h1{
+            text-align: center;
+            padding-top: 40px;
+            color: white;
+            font-size: 50px;
+            font-weight: 400px;
+        }
+        .slider p{
+            text-align: center;
+            color: white;
+            font-size: larger;
+            margin-top: 30px;
+            margin-left: 50px;
+            margin-right: 60px;
+            text-align: justify;
+        }
+        .slider .box{
+            width: 32%;
+            height: 100px;
+            margin-top: 50px;
+            border: 1px solid black;
+            margin-left: 10px;
+            float:left
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <div class="logo">
+                <h1>
+                    Company Name
+                </h1>
+            </div>
+            <div class="menu">
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+                <a href="#">Services</a>
+                <a href="#">Product</a>
+                <a href="#">Gallery</a>
+            </div>
+        </div>
+        <div class="slider">
+            <h1>
+                COLORS
+            </h1>
+            <p>Lorem ipsum dolor sit amet consectetur,Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi nesciunt, odit pariatur aperiam dolor est quibusdam possimus libero minima doloribus rerum! Quibusdam expedita tempora officiis modi voluptatum laborum similique aliquid? adipisicing elit. Veritatis quidem quae eaque aut eum alias.<br><br>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero aliquam natus illum quas cupiditate in ipsam, magni expedita? Quae in iste atque. Molestiae laudantium, mollitia asperiores eligendi exercitationem officiis nesciunt molestias perferendis ab adipisci laboriosam ea distinctio vero doloribus? Nostrum magni modi quasi? Temporibus autem provident ad rerum fugiat, officia architecto laudantium asperiores natus suscipit?</p>
+            <div class="box">
+                blue
+            </div>
+            <div class="box">
+                blue
+            </div>
+            <div class="box">
+                blue
+            </div>
+        </div>
+    </div>
+</body>
+</html>
